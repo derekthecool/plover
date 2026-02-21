@@ -56,7 +56,7 @@ The image defaults to a non-root user, so run as root to install packages.
 docker run --rm -it --platform=linux/amd64 -u root -v "$PWD":/work -w /work readthedocs/build:ubuntu-24.04-2024.06.17 bash
 
 apt-get update
-apt-get install -y python3 python3-venv python3-dev build-essential
+apt-get install -y python3 python3-venv python3-dev build-essential libxkbcommon-dev
 python3 -m venv .venv-rtd
 . .venv-rtd/bin/activate
 python -m pip install --upgrade pip setuptools
