@@ -1,3 +1,40 @@
+# v5.3.0 (2026-04-09)
+
+
+## Features
+
+### User Interface
+
+- Add missing translations. (#1825)
+- Alter form and tab order in Add Translations widget to be more logical and save strokes when navigating with keyboard. (#1833)
+
+## Bugfixes
+
+### Core
+
+- Fix translation catalog generation. (#1824)
+
+### User Interface
+
+- Fix lookup QT GUI errors. (#1830)
+- Improve plugin manager keyboard navigation. (#1834)
+- Align tooltip format. (#1834)
+- Improve menu dropdown item order. (#1834)
+- Fix trailing slash when space placement is set to `After Output` in the Add Translation dialog. (#1836)
+
+### Linux
+
+- Make wmctrl optional on Wayland to prevent crash on startup. (#1832)
+- Fix modifier alias keys in wayland. (#1838)
+
+### macOS
+
+- Fix Plover terminal commands on macOS. (#1827)
+
+## API
+
+No significant changes.
+
 # v5.2.3 (2026-03-05)
 
 
